@@ -1,0 +1,17 @@
+User1:
+Email: 123@gmail.com
+User: 12345678
+Pass: 12345678
+Herefordshire
+
+User2:
+Email: 123456@gmail.com
+User: abcdef
+Pass: abcdef
+Greater London
+
+User3:
+Email: abc@gmail.com
+User: 12345
+Pass: 12345
+Cornwall

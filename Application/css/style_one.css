@@ -1,0 +1,885 @@
+html,body{
+	height: 100%;
+}
+
+.page-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.page-footer ul {
+	list-style-type: none;
+	font-size: 15px;
+	margin: auto;
+	width: 50%;
+}
+
+.page-footer a {
+	color: black;
+}
+
+.display-4 {
+	color: yellow;
+}
+
+.lead {
+	color: yellow;
+}
+
+.jumbotron1 {
+	background: linear-gradient(to bottom, #2e2c2c 0%, #52514e 100%);
+	height: 300px;
+	padding-left: 100px;
+}
+
+.jumbotron2 {
+	background-image: url(../images/live_sports_pub_transparent.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding-left: 100px;
+}
+
+.jumbotron2 h1 {
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+.jumbotron2 p {
+	font-size: 25px;
+}
+
+.jumbotron3 {
+	background-image: url(../images/Pub_Sports_Facilities_Pool_Transparent.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding-left: 100px;
+}
+
+.jumbotron3 h1 {
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+.jumbotron3 p {
+	font-size: 25px;
+}
+
+.padding-gap {
+	background: #2e2c2c;
+}
+
+#map {
+	height: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.regForm {
+	background: #2e2c2c;
+	height: 550px;
+}
+
+.regForm h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.regForm label {
+	color: yellow;
+}
+
+.regSuccess {
+	background: #2e2c2c;
+	height: 800px;
+}
+
+.regSuccess h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.formLogin {
+	background: #2e2c2c;
+	height: 450px;
+}
+
+.formLogin h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.formLogin label {
+	color: yellow;
+}
+
+.accounts {
+	background: #2e2c2c;
+	height: 800px;
+}
+
+.accounts h1 {
+	text-align: center;
+	color: yellow;
+}
+
+.accounts p {
+	color: yellow;
+	font-size:25px;
+}
+
+.editaccountbutton {
+	margin-bottom: 30px;
+}
+
+#userpubs {
+	color: yellow;
+}
+
+#userpubs label {
+	font-size: 30px;
+}
+
+.accounts ul {
+	list-style-type: none;
+	padding: 0; 
+	margin: 0;
+	font-size: 20px;
+}
+
+.editaccounts {
+	background: #2e2c2c;
+	height: 450px;
+}
+
+.editaccounts h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.editaccounts label {
+	color: yellow;
+}
+
+.addpub {
+	background: #2e2c2c;
+	height: 1150px;
+}
+
+.addpub h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.addpub label {
+	color: yellow;
+}
+
+.editpub {
+	background: #2e2c2c;
+	height: 1100px;
+}
+
+.editpub h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.editpub label {
+	color: yellow;
+}
+
+#livesportschannelb {
+	display: none;
+}
+
+#livesportschannelc {
+	display: none;
+}
+
+#sportsfacilitiesb {
+	display: none;
+}
+
+#sportsfacilitiesc {
+	display: none;
+}
+
+#sportsfacilitiesd {
+	display: none;
+}
+
+.pubAdded {
+	background: #2e2c2c;
+	height: 800px;
+}
+
+.pubAdded h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+#map2 {
+	height: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.pubsearch {
+	background: #2e2c2c;
+	height: 300px;
+}
+
+.pubsearch h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.pubsearch label {
+	color: yellow;
+}
+
+.about {
+	margin-top: 100px;
+	background: #2e2c2c;
+	height: 300px;
+}
+
+.about h1 {
+	color: yellow;
+	text-align: center;
+}
+
+.about p {
+	text-align: center;
+	color: yellow;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 20px;
+}
+
+.accessibility {
+	margin-top: 100px;
+	background: #2e2c2c;
+	height: 300px;
+	text-align: center;
+}
+
+.accessibility h1 {
+	color: yellow;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+	
+	.navbar-brand {
+		font-size: 25px;
+	}
+	
+	.navbar {
+		font-size: 25px;
+	}
+
+	.page-footer ul {
+		margin: 0;
+		text-align: center;
+	}
+	
+	.page-footer a {
+		padding: 0;
+		font-size: 25px;
+	}
+	
+	.regForm {
+		height: 600px;
+	}
+
+	.regForm h1 {
+		font-size: 40px;
+	}
+
+	.regForm label {
+		font-size: 30px;
+	}
+	
+	.regForm input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.regForm button {
+		font-size: 25px;
+	}
+
+	.regSuccess h1 {
+		font-size: 60px;
+	}
+	
+	.formLogin {
+		height: 600px;
+	}
+
+	.formLogin h1 {
+		font-size: 40px;
+	}
+
+	.formLogin label {
+		font-size: 30px;
+	}
+	
+	.formLogin input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.formLogin button {
+		font-size: 25px;
+	}
+	
+	.accounts {
+		height: 1000px;
+	}
+
+	.accounts h1 {
+		font-size: 40px;
+	}
+
+	.accounts p {
+		font-size: 30px;
+	}
+	
+	.accounts ul {
+		font-size: 30px;
+	}
+	
+	.editaccountbutton button{
+		font-size: 25px;
+	}
+	
+	#userpubs label {
+		font-size: 25px;
+	}
+	
+	#userpubs input {
+		font-size: 30px;
+	}
+	
+	#userpubs button {
+		font-size: 25px;
+	}
+	
+	.editaccounts {
+		height: 550px;
+	}
+
+	.editaccounts h1 {
+		font-size: 40px;
+	}
+
+	.editaccounts label {
+		font-size: 30px;
+	}
+	
+	.editaccounts input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.editaccounts button {
+		font-size: 25px;
+	}
+	
+	.addpub {
+		height: 1400px;
+	}
+
+	.addpub h1 {
+		font-size: 40px;
+	}
+
+	.addpub label {
+		font-size: 30px;
+	}
+	
+	.addpub input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	#submit1 {
+		font-size: 25px;
+	}
+	
+	.addpub button {
+		font-size: 32px;
+	}
+
+	.pubAdded h1 {
+		font-size: 60px;
+	}
+	
+	.editpub {
+		height: 1430px;
+	}
+
+	.editpub h1 {
+		font-size: 40px;
+	}
+
+	.editpub label {
+		font-size: 30px;
+	}
+	
+	.editpub input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.editpub button {
+		font-size: 25px;
+	}
+	
+	.pubsearch {
+		height: 400px;
+		font-size: 30px;
+	}
+
+	.pubsearch h1 {
+		font-size: 40px;
+	}
+	
+	.pubsearch select {
+		height: 30px;
+		line-height: 30px;
+	}
+	
+	.pubsearch button {
+		font-size: 25px;
+	}
+	
+	.about {
+		margin-top: 150px;
+		height: 800px;
+	}
+	
+	.about h1 {
+		font-size: 60px;
+	}
+
+	.about p {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	
+	.navbar-brand {
+		font-size: 20px;
+	}
+	
+	.navbar {
+		font-size: 20px;
+	}
+	
+	.page-footer a {
+		font-size: 20px;
+	}
+	
+	.regForm {
+		height: 700px;
+	}
+
+	.regForm h1 {
+		font-size: 40px;
+	}
+
+	.regForm label {
+		font-size: 30px;
+	}
+	
+	.regForm input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.regForm button {
+		font-size: 25px;
+	}
+
+	.regSuccess h1 {
+		font-size: 60px;
+	}
+	
+	.formLogin {
+		height: 700px;
+	}
+
+	.formLogin h1 {
+		font-size: 40px;
+	}
+
+	.formLogin label {
+		font-size: 30px;
+	}
+	
+	.formLogin input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.formLogin button {
+		font-size: 25px;
+	}
+	
+	.accounts {
+		height: 800px;
+	}
+
+	.accounts h1 {
+		font-size: 30px;
+	}
+
+	.accounts p {
+		font-size: 20px;
+	}
+	
+	.accounts ul {
+		font-size: 20px;
+	}
+	
+	.editaccountbutton button{
+		font-size: 15px;
+	}
+
+	#userpubs label {
+		font-size: 20px;
+	}
+	
+	#userpubs input {
+		font-size: 20px;
+	}
+	
+	#userpubs button {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	
+	.editaccounts {
+		height: 650px;
+	}
+
+	.editaccounts h1 {
+		font-size: 40px;
+	}
+
+	.editaccounts label {
+		font-size: 30px;
+	}
+	
+	.editaccountbutton {
+		margin-bottom: 30px;
+	}
+	
+	.addpub {
+		height: 1400px;
+	}
+
+	.addpub h1 {
+		font-size: 40px;
+	}
+
+	.addpub label {
+		font-size: 30px;
+	}
+	
+	.addpub input {
+		height: 50px;
+		font-size: 30px;
+	}
+	
+	#submit1 {
+		font-size: 20px;
+		height: 45px;
+		margin-top: 10px;
+	}
+	
+	.addpub button {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	.pubAdded h1 {
+		font-size: 60px;
+	}
+	
+	.editpub {
+		height: 1500px;
+	}
+
+	.editpub h1 {
+		font-size: 40px;
+	}
+
+	.editpub label {
+		font-size: 30px;
+	}
+	
+	.editpub input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.editpub button {
+		font-size: 25px;
+	}
+	
+	.pubsearch {
+		height: 450px;
+		font-size: 30px;
+	}
+
+	.pubsearch h1 {
+		font-size: 40px;
+	}
+	
+	.pubsearch select {
+		height: 30px;
+		line-height: 30px;
+	}
+	
+	.pubsearch button {
+		font-size: 25px;
+	}
+	
+	.about {
+		margin-top: 50px;
+		height: 1000px;
+	}
+	
+	.about h1 {
+		font-size: 40px;
+	}
+
+	.about p {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.navbar-brand {
+		font-size: 20px;
+	}
+	
+	.navbar {
+		font-size: 20px;
+	}
+
+	.page-footer ul {
+		margin-left: 20%;
+	}
+	
+	.page-footer a {
+		font-size: 15px;
+	}
+	
+	.jumbotron3 {
+		height: 600px;
+	}
+	
+	.regForm {
+		height: 850px;
+	}
+
+	.regForm h1 {
+		font-size: 40px;
+	}
+
+	.regForm label {
+		font-size: 30px;
+	}
+	
+	.regForm input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.regForm button {
+		font-size: 25px;
+	}
+
+	.regSuccess h1 {
+		font-size: 60px;
+	}
+	
+	.formLogin {
+		height: 800px;
+	}
+
+	.formLogin h1 {
+		font-size: 40px;
+	}
+
+	.formLogin label {
+		font-size: 30px;
+	}
+	
+	.formLogin input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.formLogin button {
+		font-size: 25px;
+	}
+	
+	.accounts {
+		height: 800px;
+	}
+
+	.accounts h1 {
+		font-size: 30px;
+	}
+
+	.accounts p {
+		font-size: 20px;
+	}
+	
+	.accounts ul {
+		font-size: 20px;
+	}
+	
+	.editaccountbutton button {
+		font-size: 15px;
+	}
+
+	#userpubs label {
+		font-size: 20px;
+	}
+	
+	#userpubs input {
+		font-size: 20px;
+	}
+	
+	#userpubs button {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	
+	.editaccounts {
+		height: 650px;
+	}
+
+	.editaccounts h1 {
+		font-size: 40px;
+	}
+
+	.editaccounts label {
+		font-size: 30px;
+	}
+	
+	.editaccountbutton {
+		margin-bottom: 30px;
+	}
+	
+	.addpub {
+		height: 1400px;
+	}
+
+	.addpub h1 {
+		font-size: 40px;
+	}
+
+	.addpub label {
+		font-size: 30px;
+	}
+	
+	.addpub input {
+		height: 50px;
+		font-size: 30px;
+	}
+	
+	#submit1 {
+		font-size: 20px;
+		height: 45px;
+		margin-top: 10px;
+	}
+	
+	.addpub button {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	.pubAdded h1 {
+		font-size: 60px;
+	}
+	
+	.editpub {
+		height: 1500px;
+	}
+
+	.editpub h1 {
+		font-size: 40px;
+	}
+
+	.editpub label {
+		font-size: 30px;
+	}
+	
+	.editpub input {
+		height: 60px;
+		font-size: 30px;
+	}
+	
+	.editpub button {
+		font-size: 25px;
+	}
+	
+	.pubsearch {
+		height: 450px;
+		font-size: 30px;
+	}
+
+	.pubsearch h1 {
+		font-size: 40px;
+	}
+
+	.pubsearch label {
+		color: yellow;
+	}
+	
+	.pubsearch select {
+		height: 30px;
+		line-height: 30px;
+	}
+	
+	.pubsearch button {
+		font-size: 25px;
+	}
+	
+	.about {
+		margin-top: 50px;
+		height: 1100px;
+	}
+	
+	.about h1 {
+		font-size: 40px;
+	}
+
+	.about p {
+		font-size: 30px;
+	}
+	
+	.accessibility {
+		margin-top: 50px;
+	}
+}
